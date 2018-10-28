@@ -101,13 +101,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Muketer"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "진정한 데이터 과학자 되기 프로젝트"
+  location         : "경기도 성남시 분당구"
   email            :
   links:
-    - label: "Email"
+    - label: "dwmiracle@miraclesolution.co.kr"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
     - label: "Website"
