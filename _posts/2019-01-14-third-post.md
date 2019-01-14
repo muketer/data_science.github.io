@@ -4,4 +4,4 @@ date : 2019-01-14 16:35
 categories : jekyll update
 ---
 
-![first image](/images/icecream.jpg)
+![first image](https://giftour.ru/assets/7652734167.jpg)
