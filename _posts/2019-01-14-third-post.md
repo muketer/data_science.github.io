@@ -4,15 +4,15 @@ date : 2019-01-14 16:35
 categories : jekyll update
 ---
 
-1. library install
+1. install libraries
 - > pip install ipyparallel
 - > pip install joblib
 
 
-2. ipcluster start
+2. start ipcluster engine
 ![ipcluster_start](https://github.com/muketer/muketer.github.io/blob/master/_posts/images/ipcluster_start.png?raw=true){: width="150%" height="150%"}
 
-3. class, module import
+3. import class, module
 ![class&module_import](https://github.com/muketer/muketer.github.io/blob/master/_posts/images/class&module_import.png?raw=true){: width="150%" height="150%"}
 
 4. apply codes
