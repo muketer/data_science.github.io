@@ -11,8 +11,8 @@ categories : jekyll update
 
 
 1. install libraries
-- >> <pre>pip install ipyparallel</pre>
-- >> <pre>pip install joblib</pre>
+- > <code>pip install ipyparallel</code>
+- > <code>pip install joblib</code>
 
 
 2. start ipcluster engine
@@ -37,5 +37,5 @@ CPU를 동작만 시키고 실제 연산을 Core들이 분담하지는 않는 �
 <hr />
 
 - 참고
-[stack overflow](https://stackoverflow.com/questions/38601026/easy-way-to-use-parallel-options-of-scikit-learn-functions-on-hpc)
-[ipyparallel doc](https://ipyparallel.readthedocs.io/en/latest/process.html#parallel-process)
+### [stack overflow](https://stackoverflow.com/questions/38601026/easy-way-to-use-parallel-options-of-scikit-learn-functions-on-hpc)
+### [ipyparallel doc](https://ipyparallel.readthedocs.io/en/latest/process.html#parallel-process)
