@@ -11,8 +11,8 @@ categories : jekyll update
 
 
 1. install libraries
-- > <code>pip install ipyparallel</code>
-- > <code>pip install joblib</code>
+- <code>pip install ipyparallel</code>
+- <code>pip install joblib</code>
 
 
 2. start ipcluster engine
