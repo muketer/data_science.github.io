@@ -14,16 +14,16 @@ categories : jekyll update
 - <code>pip install joblib</code>
 
 2. start ipcluster engine
-![ipcluster_start](https://github.com/muketer/muketer.github.io/blob/master/_posts/images/ipcluster_start.png?raw=true){: width="150%" height="150%"}
+![ipcluster_start](https://github.com/muketer/muketer.github.io/blob/master/_posts/images/ipcluster_start.png){: width="150%" height="150%"}
 
 3. import class, module
-![class&module_import](https://github.com/muketer/muketer.github.io/blob/master/_posts/images/class&module_import.png?raw=true){: width="150%" height="150%"}
+![class&module_import](https://github.com/muketer/muketer.github.io/blob/master/_posts/images/class&module_import.png){: width="150%" height="150%"}
 
 4. apply codes
-![apply_codes](https://github.com/muketer/muketer.github.io/blob/master/_posts/images/parallel_execute_code.png?raw=true){: width="150%" height="150%"}
+![apply_codes](https://github.com/muketer/muketer.github.io/blob/master/_posts/images/parallel_execute_code.png){: width="150%" height="150%"}
 
 5. verify cpu working
-![cpu_status](https://github.com/muketer/muketer.github.io/blob/master/_posts/images/cpu_status.png?raw=true){: width="100%" height="100%"}
+![cpu_status](https://github.com/muketer/muketer.github.io/blob/master/_posts/images/cpu_status.png){: width="100%" height="100%"}
 <br/>
 분명 CPU의 코어들이 동시에 동작하는 것이 확인되긴 하지만,<br/>
 솔직히 이 병렬 처리를 통해서 성능이 개선되는지에 대해서는 아직 의문이다.<br/>
