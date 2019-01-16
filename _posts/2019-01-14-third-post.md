@@ -37,6 +37,7 @@ CPU를 동작만 시키고 실제 연산을 Core들이 분담하지는 않는 �
 	위 방법을 적용해 GradientBoostingRegressor 모델 성능을 cross validation 하는 코드를 실행한 결과,<br/>
 	병렬 처리를 적용하기 전보다 약 1/2~1/4 정도 가량의 시간 단축 효과를 봤다.<br/>
 </font>
+![done](http://www.myagilepartner.com/blog/wp-content/uploads/2018/10/definition-of-done-dod.png)
 <br/>
 <hr />
 - 참고
