@@ -29,10 +29,10 @@ categories : jekyll update
 솔직히 이 병렬 처리를 통해서 성능이 개선되는지에 대해서는 아직 의문이다.<br/>
 CPU를 동작만 시키고 실제 연산을 Core들이 분담하지는 않는 건가 싶기도 하다...<br/>
 다른 방법들을 더 알아봐야겠다.<br/>
-<font color="red" size="5">
+<font color="red" size="3">
 	* 정정<br/>
 </font>
-<font color="red" size="5">
+<font color="red" size="3">
 	병렬 처리가 잘 되는 듯 하다.<br/>
 	위 방법을 적용해 GradientBoostingRegressor 모델 성능을 cross validation 하는 코드를 실행한 결과,<br/>
 	병렬 처리를 적용하기 전보다 약 1/2~1/4 정도 가량의 시간 단축 효과를 봤다.<br/>
