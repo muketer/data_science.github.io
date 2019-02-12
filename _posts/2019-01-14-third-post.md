@@ -3,7 +3,7 @@ title : "머신러닝 병렬 처리 - sklearn&ipyparallel&joblib"
 date : 2019-01-14 16:35
 categories : jekyll update
 ---
-
+<br/>
 머신러닝을 하다보니 병렬 처리의 필요성이 느껴졌다.<br/>
 그렇게 오래 걸릴 작업이 아닌 것 같은데 CPU Core를 하나만 쓰는 경우가 있었기 때문.<br/>
 <br/>
