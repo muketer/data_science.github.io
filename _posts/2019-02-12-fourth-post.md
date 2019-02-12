@@ -17,19 +17,19 @@ categories : jekyll update
 <br/>
 
 1. 먼저, 다른 곳에서 import 해 가져올 .ipynb 파일을 만든다. 본 예제에서는 간단한 Class 하나를 작성했다.
-![target_class]https://github.com/muketer/muketer.github.io/blob/master/_posts/images/fourth_post/target_class.jpg?raw=true
+![target_class](https://github.com/muketer/muketer.github.io/blob/master/_posts/images/fourth_post/target_class.jpg?raw=true)
 
 2. .ipynb 파일은 json 형식으로 구성돼 있다.(메모장 혹은 기타 에디터에서 .ipynb 파일을 열어보면 확인할 수 있다.)<br/>
 import 할 .ipynb 파일을 json 형식으로 읽어들인다.<br/>
 그리고 전체 cell('cells' key의 value 안에 code들이 담겨있다.) 중 'cell_type' key의 value가 'code'인 것들을 찾아 그 속에서 'source' key의 value를 string으로 변환( ''.join ), list에 저장한다.<br/>
 이제 list에 저장된 각각의 code들 사이에 줄바꿈 문자('\n')를 넣어 하나의 string으로 묶고, 실행한다.
-![import_exec]https://github.com/muketer/muketer.github.io/blob/master/_posts/images/fourth_post/import_exec.jpg?raw=true
+![import_exec](https://github.com/muketer/muketer.github.io/blob/master/_posts/images/fourth_post/import_exec.jpg?raw=true)
 
 3. 이렇게 하면 불러온 .ipynb 파일 속의 코드들을 활용할 수 있게 되는데, import 한 .ipynb 파일 속 'Target' class가 정상적으로 저장된 것을 아래 그림과 같이 확인할 수 있다.
-![import_whos]https://github.com/muketer/muketer.github.io/blob/master/_posts/images/fourth_post/import_whos.jpg?raw=true
+![import_whos](https://github.com/muketer/muketer.github.io/blob/master/_posts/images/fourth_post/import_whos.jpg?raw=true)
 
 4. 이 class의 객체를 만들어 class variable 변수와 method call을 확인한 결과, 정상적으로 작동하는 것을 볼 수 있었다.
-![import_check]https://github.com/muketer/muketer.github.io/blob/master/_posts/images/fourth_post/import_check.jpg?raw=true
+![import_check](https://github.com/muketer/muketer.github.io/blob/master/_posts/images/fourth_post/import_check.jpg?raw=true)
 
 <hr />
 - 참고
