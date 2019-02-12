@@ -8,8 +8,7 @@ categories : jekyll update
 그런데 데이터 분석 과정 중 실행 결과를 눈으로 확인해야 하는 작업이 많기 때문에,<br/>
 노트북 파일 cell 수가 너무 많아져 전체적인 가독성이 떨어질 때가 많다.<br/>
 <br/>
-이에 따라, 일반적인 에디터에서 다른 .py 파일을 import 해서 사용하는 것처럼<br/>
-.ipynb 파일도 import를 할 수 있으면 좋겠다는 생각을 했다.<br/>
+이에 따라, 일반적인 에디터에서 다른 .py 파일을 import 해서 사용하는 것처럼 .ipynb 파일도 import를 할 수 있으면 좋겠다는 생각을 했다.<br/>
 그렇게 할 경우 class와 method를 하나의 .ipynb 파일에 모아놓고,<br/>
 분석을 진행하는 .ipynb 와 분리시킬 수 있으므로 훨씬 편리할 것이다.<br/>
 구글링을 통해 간편하고 좋은 방법을 찾아냈고, 이를 활용해 새로 코드를 작성해 테스트 해봤다.<br/>
@@ -28,7 +27,7 @@ import 할 .ipynb 파일을 json 형식으로 읽어들인다.<br/>
 3. 이렇게 하면 불러온 .ipynb 파일 속의 코드들을 활용할 수 있게 되는데, import 한 .ipynb 파일 속 'Target' class가 정상적으로 저장된 것을 아래 그림과 같이 확인할 수 있다.
 ![import_whos](https://github.com/muketer/muketer.github.io/blob/master/_posts/images/fourth_post/import_whos.jpg?raw=true)
 
-4. 이 class의 객체를 만들어 class variable 변수와 method call을 확인한 결과, 정상적으로 작동하는 것을 볼 수 있었다.
+4. 이 class의 객체를 만들어 class variable과 method call을 확인한 결과, 정상적으로 작동하는 것을 볼 수 있었다.
 ![import_check](https://github.com/muketer/muketer.github.io/blob/master/_posts/images/fourth_post/import_check.jpg?raw=true)
 
 <hr />
