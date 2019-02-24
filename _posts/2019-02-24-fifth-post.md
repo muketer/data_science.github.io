@@ -39,12 +39,13 @@ LightGBM gpu 버전 Build를 위해서는 OpenCL이 필요한데, Intel SDK, AMD
 <code>
 	boost_1_69_0-msvc-14.1-64.exe 다운로드 / 나만 그런 것인지는 모르겠지만 다운로드가 100%인 순간에 완료가 안 되고 꽤나 한참 멈춰있다. 기다리다 보면 완료가 되니 인내심을 가지고 기다리자.(필자는 이 상태로 컴퓨터 켜놓고 자고 일어났더니 완료돼 있었다.)
 </code>
-</br>
 
-2. boost binaries에 대해 환경변수를 등록해줘야 한다. 공식 문서에는 command prompt에서 Set ~~~ 하는 걸로 소개를 했지만, 확실하게 하기 위해서 시스템 환경 변수 편집에 들어가서 직접 path를 추가하자.(혹시 환경변수 추가하는 방법과 동작 원리를 모른다면, 당장 구글링 해서 습득해야 한다. 환경 변수 등록은 어떤 작업에서든 기본 중 기본이다.)(아래의 Path는 물론 boost binaries를 기본 옵션 경로로 설치했다는 전제 하에 쓴 것이다.)
+</br>
+2. boost binaries에 대해 환경변수를 등록해줘야 한다. 공식 문서에는 command prompt에서 Set ~~~ 하는 걸로 소개를 했지만, 확실하게 하기 위해서 시스템 환경 변수 편집에 들어가서 직접 path를 추가하자.</br>
+(혹시 환경변수 추가하는 방법과 동작 원리를 모른다면, 당장 구글링 해서 습득해야 한다. 환경 변수 등록은 어떤 작업에서든 기본 중 기본이다.)</br>
+(아래의 Path는 물론 boost binaries를 기본 옵션 경로로 설치했다는 전제 하에 쓴 것이다.)
 - <code>BOOST_ROOT 는 C:\local\boost_1_69_0\ 로 등록</code>
 - <code>BOOST_LIBRARYDIR 은 C:\local\boost_1_69_0\lib64-msvc-14.1\ 로 등록</code>
-</br>
 
 3. git을 사용해 LightGBM의 github repository 속 소스들을 복사해 온다.(적당한 폴더를 골라 그 폴더에 진입한 후 진행한다.) 이 때 git을 환경변수 등록해서 command prompt에서 진행해도 되고, git bash에서 진행해도 된다.
 - <code>git clone --recursive https://github.com/Microsoft/LightGBM</code>
@@ -60,8 +61,6 @@ LightGBM gpu 버전 Build를 위해서는 OpenCL이 필요한데, Intel SDK, AMD
 - <code>git clone 한 LightGBM 폴더 속 python-package 폴더로 이동 후, python setup.py install --precompile</code>
 - <code>pip install lightgbm --install-option=--gpu
 (가상환경을 사용할 경우 그 가상환경의 pip를 잘 선택해 설치하자. 필자의 경우 특정 가상환경의 python과 pip를 환경변수 등록해 놓고 사용하고 있다.)</code>
-</br>
-</br>
 
 <hr />
 - 참고
