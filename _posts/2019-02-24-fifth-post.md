@@ -23,20 +23,20 @@ LightGBM gpu 버전 Build를 위해서는 OpenCL이 필요한데, Intel SDK, AMD
 <br/>
 
 1. 먼저 필요한 Tool들을 설치한다.
-- <code>
-	[Git for Windows](https://git-scm.com/download/win)</br>
+- [Git for Windows](https://git-scm.com/download/win)</br>
+<code>
 	Git 설치 및 기초적인 사용 방법은 구글링하면 많이 나오니 한 번 찾아보길 바란다.
 </code>
-- <code>
-	[CMake](https://cmake.org/download/)</br>
+- [CMake](https://cmake.org/download/)</br>
+<code>
 	이 페이지에서 Binary distributions의 cmake-3.14.0-rc2-win64-x64.zip 다운로드 / 잠시 후 cmake 명령어를 사용해야 하니, cmake 설치 과정 중 환경 변수 등록 여부를 묻는 순서에 반드시 등록을 체크하자.
 </code>
-- <code>
-	[Microsoft Visual Studio Build Tools](https://visualstudio.microsoft.com/ko/downloads/?rr=https%3A%2F%2Flightgbm.readthedocs.io%2Fen%2Flatest%2FInstallation-Guide.html)</br>
+- [Microsoft Visual Studio Build Tools](https://visualstudio.microsoft.com/ko/downloads/?rr=https%3A%2F%2Flightgbm.readthedocs.io%2Fen%2Flatest%2FInstallation-Guide.html)</br>
+<code>
 	이 페이지 하단 Visual Studio 2017용 도구 의 Visual Studio 2017용 Build Tools 다운로드 / 설치 시 반드시 'Visual C++ 빌드 도구'를 선택해 함께 설치해야 한다. / 이미 Visual Studio와 C++ 빌드 도구가 설치돼 있을 경우 이 단계는 당연히 패스해도 된다.
 </code>
-- <code>
-	[Boost Binaries](https://bintray.com/boostorg/release/boost-binaries/1.69.0#files/1.69.0/binaries)</br>
+- [Boost Binaries](https://bintray.com/boostorg/release/boost-binaries/1.69.0#files/1.69.0/binaries)</br>
+<code>
 	boost_1_69_0-msvc-14.1-64.exe 다운로드 / 나만 그런 것인지는 모르겠지만 다운로드가 100%인 순간에 완료가 안 되고 꽤나 한참 멈춰있다. 기다리다 보면 완료가 되니 인내심을 가지고 기다리자.(필자는 이 상태로 컴퓨터 켜놓고 자고 일어났더니 완료돼 있었다.)
 </code>
 </br>
