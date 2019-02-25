@@ -52,6 +52,7 @@ LightGBM gpu 버전 Build를 위해서는 OpenCL이 필요한데, Intel SDK, AMD
 4. 복사된 LightGBM 폴더에 진입해 build 폴더를 만들고 source build를 진행한다.
 - <code>cd LightGBM</code>
 - <code>mkdir build</code>
+- <code>cd build</code>
 - <code>cmake -DCMAKE_GENERATOR_PLATFORM=x64 -DUSE_GPU=1 ..</code>
 - <code>cmake --build . --target ALL_BUILD --config Release</code>
 
