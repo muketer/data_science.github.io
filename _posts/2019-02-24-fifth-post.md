@@ -48,7 +48,6 @@ LightGBM gpu 버전 Build를 위해서는 OpenCL이 필요한데, Intel SDK, AMD
 
 3. git을 사용해 LightGBM의 github repository 속 소스들을 복사해 온다.(적당한 폴더를 골라 그 폴더에 진입한 후 진행한다.) 이 때 git을 환경변수 등록해서 command prompt에서 진행해도 되고, git bash에서 진행해도 된다.
 - <code>git clone --recursive https://github.com/Microsoft/LightGBM</code>
-</br>
 
 4. 복사된 LightGBM 폴더에 진입해 build 폴더를 만들고 source build를 진행한다.
 - <code>cd LightGBM</code>
